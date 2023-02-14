@@ -1,6 +1,5 @@
-#include<stdio.h>
+#include "s21_math.h"
 #include<math.h>
-#define S21_PI 3.141592653589793
 static const double COS_EPS = 1e-6l;
 long double s21_cos(double angle) {
     double result = 1;
@@ -16,10 +15,10 @@ long double s21_cos(double angle) {
 
 
 }
-int main() {
-    double ans = s21_cos(123);
-    double true_ans = cos(123);
+/*int main() {
+    double ans = s21_cos(25);
+    double true_ans = cos(25);
     printf("my %f\n", ans);
     printf("true %f\n", true_ans);
 
-}
+}*/
